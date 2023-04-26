@@ -1,0 +1,35 @@
+.paneles{
+    padding-left: 0px;
+
+}
+.fotorenzo{
+    position:absolute;
+    width: 272px;
+    height: 272px;
+    left: 792px;
+    top: 678px;
+    border: 1px solid #000000;
+}
+.fotocande{
+    margin: 20px;
+    width: 199px;
+    height: 220px;
+    left: 90px;
+    top: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.fotoema{
+    width: 272px;
+    height: 272px;
+    left: 792px;
+    top: 678px;
+    border: 1px solid #000000;
+}
+.fotomateo{
+    width: 272px;
+    height: 272px;
+    left: 792px;
+    top: 678px;
+    border: 1px solid #000000;
+}
