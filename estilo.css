@@ -1,35 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    margin: 0px;
+}
+
 .paneles{
     padding-left: 0px;
 
 }
-.fotorenzo{
-    position:absolute;
+#fotorenzo{
     width: 272px;
     height: 272px;
     left: 792px;
     top: 678px;
+    border-radius:50%;
     border: 1px solid #000000;
 }
-.fotocande{
-    margin: 20px;
-    width: 199px;
-    height: 220px;
-    left: 90px;
-    top: 120px;
-    border-radius: 50%;
-    border: 2px solid white;
-}
-.fotoema{
+#fotocande{
     width: 272px;
     height: 272px;
     left: 792px;
     top: 678px;
+    border-radius:50%;
     border: 1px solid #000000;
 }
-.fotomateo{
+#fotoema{
     width: 272px;
     height: 272px;
     left: 792px;
     top: 678px;
+    border-radius:50%;
     border: 1px solid #000000;
 }
+#fotomateo{
+    width: 272px;
+    height: 272px;
+    left: 792px;
+    top: 678px;
+    border-radius:50%;
+    border: 1px solid #000000;
+}
+
+.fotos{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+
+}
+
+.titulo{
+    background-color: #54710A;
+    height: 130px;
+    text-align: center;
+    font-size: 5em;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 25px;
+
+   }
+
+   .texto{
+    padding: 40px;
+    margin: 30px;
+    font-size: 1.8em;
+    font-family: 'Open Sans', sans-serif;
+   }
+
+   
+
+#nombresverde{
+    background-color: #83A419;
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    width: 300px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7em;
+}
+
+#cvs{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6em;
+    text-decoration: none;
+    color: black;
+    
+}
+
+   
