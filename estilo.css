@@ -17,6 +17,11 @@
     border-radius:50%;
     border: 1px solid #000000;
 }
+
+.logo{
+    height: 130px;
+
+}
 #fotocande{
     width: 272px;
     height: 272px;
@@ -49,18 +54,19 @@
 
 }
 
-.titulo{
+header{
     background-color: #54710A;
     height: 130px;
     text-align: center;
-    font-size: 5em;
+    font-size: 3em;
     color: white;
     font-family: 'Open Sans', sans-serif;
     padding-top: 25px;
-
+    display: flex;
+    justify-content: center;
    }
 
-   .texto{
+.texto{
     padding: 40px;
     margin: 30px;
     font-size: 1.8em;
@@ -84,9 +90,33 @@
 #cvs{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6em;
-    text-decoration: none;
-    color: black;
-    
+    padding-top: 25px;
 }
 
-   
+.todos{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer{
+    background-color: #54710A;
+    height: 50px;
+}
+
+.redes-footer{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+}
+
+.derechos-reservados{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: end;
+    padding: 15px;
+}
